@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 8524119642622785627}
   - component: {fileID: 2123018669327927490}
   - component: {fileID: 2126502159559067750}
+  - component: {fileID: 1702400864790725411}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Untagged
@@ -201,6 +202,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   startingHealth: 3
+  deathVFXPrefab: {fileID: 5972042380361315167, guid: 19b4741e50a12f14d868576a2f3e7427, type: 3}
 --- !u!114 &2126502159559067750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,6 +215,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6a32f393714c774c908fe36dc4bde6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Knockback
+  knockBackTime: 0.2
+--- !u!114 &1702400864790725411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715868067938688339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67fd64188a68bee4f97f63e8ef1ac092, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Flash
+  whiteFlashMaterial: {fileID: 2100000, guid: 4d4117c37f80a6f4687635a96f5fda98, type: 2}
+  restoreDefaultMatTime: 0.1
 --- !u!1 &6410039215609562652
 GameObject:
   m_ObjectHideFlags: 0
