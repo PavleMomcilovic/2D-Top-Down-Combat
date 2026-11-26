@@ -96,7 +96,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.15
-    functionName: DestroySelf
+    functionName: DestroySelfAnimEvent
     data: 
     objectReferenceParameter: {fileID: 8036137827297578366, guid: 099a83ca9022c8e4982a2c65ce57582a, type: 3}
     floatParameter: 0
